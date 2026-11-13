@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[oc]
+*.pyo
+*.egg-info/
+dist/
+build/
+wheels/
+
+# Virtual environments
+.venv/
+venv/
+.env
+.env.local
+
+# Environment & secrets
+.env
+
+# Model caches (large, not needed in repo)
+.model_cache/
+.paddleocr/
+.paddle/
+
+# Dependency caches
+.pytest_cache/
+.uv-cache/
+.mypy_cache/
+.ruff_cache/
+
+# Test / coverage artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Application runtime data
+output/
+queued_invoices/*
+!queued_invoices/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Backup & temporary files
+*Backup*
+*.bak
+*.tmp
+*.swp
+*~
+
+# Archive files (local copies, not needed in repo)
+*.zip
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
